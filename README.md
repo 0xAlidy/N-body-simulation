@@ -14,7 +14,6 @@ Le projet nécessite Python 3.x et quelques bibliothèques scientifiques standar
 
 ```bash
 pip install numpy pandas matplotlib
-python simulation.py
 ```
 
 ---
@@ -92,7 +91,7 @@ L'interface interactive de `simulation.py` vous permet de régler précisément 
 
 ### 0. Choix du fichier de données (Chargement)
 
-- **Argument direct :** `python simulation.py ./Inputs/systeme_solaire.csv` (saute l'étape de saisie).
+- **Argument direct :** `python ./Programmes/simulation.py ./Inputs/systeme_solaire.csv` (saute l'étape de saisie).
 - **Saisie interactive :** Chemin relatif (ex: `./Inputs/collision.csv`).
 
 ### 1. La Durée de la Simulation
